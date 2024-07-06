@@ -1,0 +1,97 @@
+/* .hero{
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    
+}
+
+.hero-left{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+    padding-left: 180px;
+    line-height: 1.1;
+
+}
+
+ .hero-left h2{
+    font-size: 39px;
+    font-weight: 500;
+}
+   
+.hero-left p{
+    font-size: 40px;
+    font-weight: 400;
+   
+} 
+
+.hero-left img{
+    height: 90px;
+    width: 100px;
+    margin-left: 100px;
+    
+}
+ */
+
+ .hero {
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+}
+
+.hero-left {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px; /* Reduced gap */
+    padding-left: 180px;
+     line-height: 0.2; 
+}
+
+.hero-left h2 {
+    font-size: 39px;
+    font-weight: 500;
+}
+
+.hero-left .hand-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust the gap between text and image as needed */
+}
+
+.hero-left p {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.hero-left img {
+    height: 90px;
+    width: 85px;
+    /* Removed margin-left to place it beside the text */
+}
+
+.hero-latest-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 60px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background-color: red;
+    color: white;
+    font-size: 22px;
+}
+
+.hero-latest-btn img{
+    width: 40px;
+    height: 40px;
+}
+
+.hero-right img{
+    height: 700px;
+}

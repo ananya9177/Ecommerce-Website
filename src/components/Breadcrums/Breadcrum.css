@@ -1,0 +1,33 @@
+/* Breadcrum.css */
+
+.breadcrum {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  .breadcrum img {
+    margin: 0 10px;
+    width: 12px;
+    height: 12px;
+  }
+  
+  .breadcrum a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .breadcrum a:hover {
+    color: #000;
+  }
+  
+  .breadcrum a.active {
+    font-weight: bold;
+    color: #000;
+  }
+  

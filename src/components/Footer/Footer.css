@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  footer {
+    background-color: #fefbfb; 
+    color: rgb(13, 13, 13);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-line {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 10px 0;
+  }
+  
+  .footer-line a, .footer-line p {
+    color: rgb(12, 11, 11);
+    text-decoration: none;
+  }
+  
+  .footer-line a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icon {
+    font-size: 24px;
+  }
+  
+  .social-icon:hover svg {
+    color: #ddd;
+  }
+  
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem ;
+}
